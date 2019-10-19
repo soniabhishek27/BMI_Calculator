@@ -1,6 +1,6 @@
 import 'main.dart';
 import 'package:flutter/material.dart';
-
+import 'Constants.dart';
 
 class IconContent extends StatelessWidget {
   @override
@@ -25,10 +25,7 @@ class IconContent extends StatelessWidget {
         ),
         Text(
           text,
-          style: TextStyle(
-            fontSize: 18.0,
-            color: Color(0xFF8D8E98),
-          ),
+          style: klabelTextStyle,
         ),
       ],
     );
