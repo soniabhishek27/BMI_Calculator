@@ -123,7 +123,23 @@ class _InputPageState extends State<InputPage> {
               child: Row(
                 children: <Widget>[
                   Expanded(
-                    child: new ReusableContainer(colour: kmycolor),
+                    child: new ReusableContainer(
+                        colour: kmycolor,
+                      cardChild: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: <Widget>[
+                          Text(
+                              'WEIGHT',
+                            style: klabelTextStyle,
+                          )
+
+
+
+                        ],
+                      ),
+
+                    ),
+
                   ),
                   Expanded(
                     child: new ReusableContainer(colour: kmycolor),
